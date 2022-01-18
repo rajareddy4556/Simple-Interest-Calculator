@@ -1,0 +1,100 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="start"
+	android:orientation="vertical">
+
+	<TextView
+
+
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Enter amount"
+		android:textSize="20dp"
+	/>
+
+	<EditText
+		android:id="@+id/EditText1"
+		android:layout_marginTop="15dp"
+
+
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="numberDecimal"
+	/>
+
+	<TextView
+		android:layout_marginTop="55dp"
+
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Enter how many months "
+		android:textSize="20dp"
+	/>
+
+	<EditText 
+		android:id="@+id/EditText2"
+
+		android:layout_marginTop="115dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="numberDecimal"
+
+	/>
+	<TextView
+		android:layout_marginTop="100dp"
+
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Interst rate"
+		android:textSize="20dp"
+	/>
+	<EditText 
+		android:id="@+id/EditText3"
+
+		android:layout_marginTop="65dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="numberDecimal"
+
+	/>
+
+	<TextView
+		android:layout_marginTop="150dp"
+
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Enter how many days"
+		android:textSize="20dp"
+	/>
+	<EditText 
+		android:id="@+id/EditText4"
+		android:layout_marginTop="160dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="numberDecimal"
+
+	/>
+
+
+
+
+
+	<Button
+		android:id="@+id/button1"
+		android:layout_marginTop="210dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Simple Intrest"/>
+	<TextView
+		android:layout_marginTop="270dp"
+		android:id="@+id/txt"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text=" "
+		android:textSize="25dp"
+	/>
+
+
+</RelativeLayout>
