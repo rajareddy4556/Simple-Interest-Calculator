@@ -1,4 +1,4 @@
-# Intrestcalci
+# Simple Interest Calculator
 This Repository Provides Simple Intrest Based on  principle Amount,Time,Intrest Rate
 Intial -Enter Your Principle Amount
 Nxt -Enter How Many Months
